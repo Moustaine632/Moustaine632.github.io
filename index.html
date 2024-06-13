@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Personnelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        #main {
+            padding: 20px;
+            background: #fff;
+            color: #333;
+        }
+        #main h1 {
+            text-align: center;
+            margin-top: 0;
+        }
+        #main p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .social a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+        }
+        .social a:hover {
+            color: #0779e4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Page Personnelle</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#biographie">Biographie</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="showcase">
+        <div class="container">
+            <h1>Bienvenue sur ma page personnelle</h1>
+            <p>Explorons ensemble la richesse de l'islam et les enjeux contemporains.</p>
+        </div>
+    </div>
+
+    <section id="main" class="container">
+        <h1 id="biographie">Biographie</h1>
+        <p>
+            Je suis passionné par la théologie et plus particulièrement par la religion islamique. 
+            Mon objectif est de partager mes connaissances et réflexions sur l'islam et de discuter 
+            des transformations actuelles dans le monde.
+        </p>
+
+        <h1 id="blog">Blog</h1>
+        <p>
+            Dans cette section, je partagerai des articles et des réflexions sur divers aspects de l'islam, 
+            ainsi que des analyses sur l'actualité mondiale à travers le prisme de la religion.
+        </p>
+
+        <h1 id="contact">Contact</h1>
+        <p>Retrouvez-moi sur les réseaux sociaux :</p>
+        <div class="social">
+            <a href="https://www.facebook.com/ton_profil" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com/ton_profil" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/ton_profil" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Page Personnelle &copy; 2024</p>
+    </footer>
+</body>
+</html>
